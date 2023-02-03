@@ -4,8 +4,8 @@ import {login} from "../hooks/useData";
 import {useParams} from "react-router-dom";
 function Login() {
     const params1 = useParams();
-    const [nom,setNom]=useState("")
-    const [password,setPassword]=useState("")
+    const [nom,setNom]=useState("jones")
+    const [password,setPassword]=useState("j")
     const [donne,setDonne]=useState("");
     const [valid,setValid]=useState("");
     const handleSubmit=(event)=>{
